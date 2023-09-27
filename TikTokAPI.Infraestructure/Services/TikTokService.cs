@@ -1,18 +1,21 @@
 ﻿using MediatR;
 using Microsoft.Extensions.Options;
 using TikTokAPI.Core.AppSettings;
+using TikTokAPI.Domain.Client;
 using TikTokAPI.Domain.Models.TikTok;
 using TikTokAPI.Domain.Services;
+using TikTokAPI.Infraestructure.Extensions;
 
 namespace TikTokAPI.Infraestructure.Services
 {
-    internal sealed class TikTokClient : ITikTokClient
+    internal sealed class TikTokService : ITikTokService
     {
-        private readonly TikTokOptions _tikTokOptions;
-        public TikTokClient(IOptions<TikTokOptions> tiktokOptions)
+        private readonly ITikTokClient _tikTokClient;
+        public TikTokService(ITikTokClient tikTokClient)
         {
-            _tikTokOptions = tiktokOptions.Value;
+            _tikTokClient = tikTokClient;
         }
+
         public async Task<VideoUploadResponse> UploadVideo(VideoUploadRequest request)
         {
             if (request.IsInitPostNeeded)
@@ -31,6 +34,8 @@ namespace TikTokAPI.Infraestructure.Services
 
         private async Task<VideoUploadResponse> InitUpload(VideoUploadRequest request)
         {
+            HttpClient a = new HttpClient();
+
             return null;
         }
 

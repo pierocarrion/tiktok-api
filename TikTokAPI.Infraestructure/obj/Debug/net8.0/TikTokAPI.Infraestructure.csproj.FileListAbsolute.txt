@@ -15,3 +15,4 @@ C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Infraestructure\ob
 C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Infraestructure\obj\Debug\net8.0\refint\TikTokAPI.Infraestructure.dll
 C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Infraestructure\obj\Debug\net8.0\TikTokAPI.Infraestructure.pdb
 C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Infraestructure\obj\Debug\net8.0\ref\TikTokAPI.Infraestructure.dll
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Infraestructure\obj\Debug\net8.0\TikTokAPI.Infraestructure.sourcelink.json

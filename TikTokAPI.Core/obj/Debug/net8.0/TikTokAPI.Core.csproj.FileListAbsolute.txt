@@ -9,3 +9,4 @@ C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Core\obj\Debug\net
 C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Core\obj\Debug\net8.0\refint\TikTokAPI.Core.dll
 C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Core\obj\Debug\net8.0\TikTokAPI.Core.pdb
 C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Core\obj\Debug\net8.0\ref\TikTokAPI.Core.dll
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Core\obj\Debug\net8.0\TikTokAPI.Core.sourcelink.json

@@ -2,7 +2,7 @@
 
 namespace TikTokAPI.Domain.Services;
 
-public interface ITikTokClient
+public interface ITikTokService
 {
     public Task<VideoUploadResponse> UploadVideo(VideoUploadRequest request);
 }

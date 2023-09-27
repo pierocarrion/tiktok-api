@@ -3,3 +3,16 @@ C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Application\obj\De
 C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Application\obj\Debug\net8.0\TikTokAPI.Application.AssemblyInfoInputs.cache
 C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Application\obj\Debug\net8.0\TikTokAPI.Application.AssemblyInfo.cs
 C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Application\obj\Debug\net8.0\TikTokAPI.Application.csproj.CoreCompileInputs.cache
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Application\bin\Debug\net8.0\TikTokAPI.Application.deps.json
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Application\bin\Debug\net8.0\TikTokAPI.Application.dll
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Application\bin\Debug\net8.0\TikTokAPI.Application.pdb
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Application\bin\Debug\net8.0\TikTokAPI.Core.dll
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Application\bin\Debug\net8.0\TikTokAPI.Domain.dll
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Application\bin\Debug\net8.0\TikTokAPI.Core.pdb
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Application\bin\Debug\net8.0\TikTokAPI.Domain.pdb
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Application\obj\Debug\net8.0\TikTokAPI.Application.sourcelink.json
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Application\obj\Debug\net8.0\TikTokAPI.Application.csproj.CopyComplete
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Application\obj\Debug\net8.0\TikTokAPI.Application.dll
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Application\obj\Debug\net8.0\refint\TikTokAPI.Application.dll
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Application\obj\Debug\net8.0\TikTokAPI.Application.pdb
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Application\obj\Debug\net8.0\ref\TikTokAPI.Application.dll

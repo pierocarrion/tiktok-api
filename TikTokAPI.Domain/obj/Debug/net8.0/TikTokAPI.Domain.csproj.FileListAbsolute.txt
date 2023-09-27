@@ -10,3 +10,4 @@ C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Domain\obj\Debug\n
 C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Domain\obj\Debug\net8.0\refint\TikTokAPI.Domain.dll
 C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Domain\obj\Debug\net8.0\TikTokAPI.Domain.pdb
 C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Domain\obj\Debug\net8.0\ref\TikTokAPI.Domain.dll
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Domain\obj\Debug\net8.0\TikTokAPI.Domain.sourcelink.json
