@@ -1,0 +1,17 @@
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Infraestructure\bin\Debug\net8.0\TikTokAPI.Infraestructure.deps.json
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Infraestructure\bin\Debug\net8.0\TikTokAPI.Infraestructure.dll
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Infraestructure\bin\Debug\net8.0\TikTokAPI.Infraestructure.pdb
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Infraestructure\bin\Debug\net8.0\TikTokAPI.Core.dll
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Infraestructure\bin\Debug\net8.0\TikTokAPI.Domain.dll
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Infraestructure\bin\Debug\net8.0\TikTokAPI.Core.pdb
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Infraestructure\bin\Debug\net8.0\TikTokAPI.Domain.pdb
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Infraestructure\obj\Debug\net8.0\TikTokAPI.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Infraestructure\obj\Debug\net8.0\TikTokAPI.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Infraestructure\obj\Debug\net8.0\TikTokAPI.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Infraestructure\obj\Debug\net8.0\TikTokAPI.Infraestructure.AssemblyInfo.cs
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Infraestructure\obj\Debug\net8.0\TikTokAPI.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Infraestructure\obj\Debug\net8.0\TikTokAPI.Infraestructure.csproj.CopyComplete
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Infraestructure\obj\Debug\net8.0\TikTokAPI.Infraestructure.dll
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Infraestructure\obj\Debug\net8.0\refint\TikTokAPI.Infraestructure.dll
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Infraestructure\obj\Debug\net8.0\TikTokAPI.Infraestructure.pdb
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Infraestructure\obj\Debug\net8.0\ref\TikTokAPI.Infraestructure.dll

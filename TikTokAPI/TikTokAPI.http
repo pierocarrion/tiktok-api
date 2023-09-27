@@ -1,0 +1,6 @@
+@TikTokAPI_HostAddress = http://localhost:5182
+
+GET {{TikTokAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

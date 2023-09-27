@@ -1,0 +1,12 @@
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Domain\bin\Debug\net8.0\TikTokAPI.Domain.deps.json
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Domain\bin\Debug\net8.0\TikTokAPI.Domain.dll
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Domain\bin\Debug\net8.0\TikTokAPI.Domain.pdb
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Domain\obj\Debug\net8.0\TikTokAPI.Domain.csproj.AssemblyReference.cache
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Domain\obj\Debug\net8.0\TikTokAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Domain\obj\Debug\net8.0\TikTokAPI.Domain.AssemblyInfoInputs.cache
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Domain\obj\Debug\net8.0\TikTokAPI.Domain.AssemblyInfo.cs
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Domain\obj\Debug\net8.0\TikTokAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Domain\obj\Debug\net8.0\TikTokAPI.Domain.dll
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Domain\obj\Debug\net8.0\refint\TikTokAPI.Domain.dll
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Domain\obj\Debug\net8.0\TikTokAPI.Domain.pdb
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Domain\obj\Debug\net8.0\ref\TikTokAPI.Domain.dll

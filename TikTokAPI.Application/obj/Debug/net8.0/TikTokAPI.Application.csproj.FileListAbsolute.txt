@@ -1,0 +1,5 @@
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Application\obj\Debug\net8.0\TikTokAPI.Application.csproj.AssemblyReference.cache
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Application\obj\Debug\net8.0\TikTokAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Application\obj\Debug\net8.0\TikTokAPI.Application.AssemblyInfoInputs.cache
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Application\obj\Debug\net8.0\TikTokAPI.Application.AssemblyInfo.cs
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI.Application\obj\Debug\net8.0\TikTokAPI.Application.csproj.CoreCompileInputs.cache
