@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "0Yy3fsyIbRwycsbXknSS/olu2/O+kmv/p/oN4wGeHqBW1L8Tfk+1YQ6TYFer5SgD8889KONQXG5yrs8LC3MRZw==",
+  "dgSpecHash": "brfIyK4BPYpX9gpBALlyJbQeq82w2tOKG046qLFRjeZRqJyp2xgGII2ECPwAj4kC39S7rldhGQGHi6gvfBYugw==",
   "success": true,
   "projectFilePath": "C:\\Users\\piero\\source\\repos\\pierocarrion\\TikTok.API\\TikTokAPI.Application\\TikTokAPI.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\piero\\.nuget\\packages\\ardalis.result\\7.1.0\\ardalis.result.7.1.0.nupkg.sha512",
+    "C:\\Users\\piero\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",
     "C:\\Users\\piero\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
     "C:\\Users\\piero\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\piero\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",

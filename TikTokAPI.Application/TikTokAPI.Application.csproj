@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TikTokAPI.Core\TikTokAPI.Core.csproj" />
+    <ProjectReference Include="..\TikTokAPI.Domain\TikTokAPI.Domain.csproj" />
   </ItemGroup>
 
 </Project>
