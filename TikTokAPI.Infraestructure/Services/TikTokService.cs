@@ -1,13 +1,16 @@
-﻿using MediatR;
-using Microsoft.Extensions.Options;
-using TikTokAPI.Core.AppSettings;
-using TikTokAPI.Domain.Client;
+﻿using TikTokAPI.Domain.Client;
 using TikTokAPI.Domain.Models.TikTok;
+using TikTokAPI.Domain.Models.TikTok.Response;
 using TikTokAPI.Domain.Services;
-using TikTokAPI.Infraestructure.Extensions;
 
 namespace TikTokAPI.Infraestructure.Services
 {
+    /// <summary>
+    /// Class <c>TikTokService</c> contains implementation of TikTok SDK.
+    /// </summary>
+    /// <remarks>
+    /// More information: https://developers.tiktok.com/doc/content-posting-api-get-started/
+    /// </remarks>
     internal sealed class TikTokService : ITikTokService
     {
         private readonly ITikTokClient _tikTokClient;
@@ -16,12 +19,12 @@ namespace TikTokAPI.Infraestructure.Services
             _tikTokClient = tikTokClient;
         }
 
-        public async Task<VideoUploadResponse> UploadVideo(VideoUploadRequest request)
+        public async Task<VideoUploadResponse> UploadVideo(Domain.Models.TikTok.Request.SourceInfoRequest request)
         {
-            if (request.IsInitPostNeeded)
+            if (request.Source == Domain.Models.TikTok.SourceInfoEnum.PULL_FROM_URL)
             {
-                VideoUploadResponse response = await InitUpload(request);
-                if(response.Error.Code == "ok")
+                VideoUploadResponse response = await _tikTokClient.InitUpload(request);
+                if(response.Error.Code == Domain.Models.TikTok.ErrorCodeEnum.OK)
                 {
                     // PUT Video
                     return await PutVideo(request);
@@ -32,19 +35,12 @@ namespace TikTokAPI.Infraestructure.Services
             return await DirectUploadVideo(request);
         }
 
-        private async Task<VideoUploadResponse> InitUpload(VideoUploadRequest request)
-        {
-            HttpClient a = new HttpClient();
-
-            return null;
-        }
-
-        private async Task<VideoUploadResponse> PutVideo(VideoUploadRequest request)
+        private async Task<VideoUploadResponse> PutVideo(Domain.Models.TikTok.Request.SourceInfoRequest request)
         {
             return null;
         }
 
-        private async Task<VideoUploadResponse> DirectUploadVideo(VideoUploadRequest request)
+        private async Task<VideoUploadResponse> DirectUploadVideo(Domain.Models.TikTok.Request.SourceInfoRequest request)
         {
             return null;
         }

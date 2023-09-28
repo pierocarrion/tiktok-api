@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TikTokAPI.Application\TikTokAPI.Application.csproj" />
+    <ProjectReference Include="..\TikTokAPI.Infraestructure\TikTokAPI.Infraestructure.csproj" />
   </ItemGroup>
 
 </Project>

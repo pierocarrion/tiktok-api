@@ -10,7 +10,6 @@ namespace TikTokAPI.Application.Video.Commands;
 
 public class UploadVideoHandler : IRequestHandler<UploadVideoCommand, Result<UploadVideoResponse>>
 {
-
     public Task<Result<UploadVideoResponse>> Handle(UploadVideoCommand request, CancellationToken cancellationToken)
     {
         throw new NotImplementedException();

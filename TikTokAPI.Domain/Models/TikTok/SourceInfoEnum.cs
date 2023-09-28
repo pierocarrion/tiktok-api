@@ -1,6 +1,6 @@
 ﻿namespace TikTokAPI.Domain.Models.TikTok;
 
-public enum VideoUploadEnum
+public enum SourceInfoEnum
 {
     FILE_UPLOAD,
     PULL_FROM_URL

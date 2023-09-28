@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "GcKwIUMo3N3TkGmcLaqZyVdtC0qnRwn5iylZVug1ZsExLdSigsvR7PUNtvLNHK0Raky8cO2XET/OGYgMjClk9A==",
+  "dgSpecHash": "iwna6MhHLrVUt3u2HH1auZ9T26/u5alfxK46IdPp233Mq25OsJni8y18l9Q18QhQFHDpVfAWD4Z5+Lo+aRMKqw==",
   "success": true,
   "projectFilePath": "C:\\Users\\piero\\source\\repos\\pierocarrion\\TikTok.API\\TikTokAPI.Core\\TikTokAPI.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\piero\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
