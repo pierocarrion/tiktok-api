@@ -5,5 +5,7 @@ namespace TikTokAPI.Domain.Services;
 
 public interface ITikTokService
 {
-    public Task<VideoUploadResponse> UploadVideo(SourceVideoRequest request);
+    Task<CreatorInformationResponse> GetUserInfo();
+    Task<PostVideoResponse> PostVideoWithUrl(PostVideoRequest request);
+    Task<PostVideoResponse> PostFileVideo(PostVideoRequest request);
 }

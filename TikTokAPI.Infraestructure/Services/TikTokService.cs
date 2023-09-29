@@ -1,5 +1,6 @@
 ﻿using TikTokAPI.Domain.Client;
 using TikTokAPI.Domain.Models.TikTok;
+using TikTokAPI.Domain.Models.TikTok.Request;
 using TikTokAPI.Domain.Models.TikTok.Response;
 using TikTokAPI.Domain.Services;
 
@@ -19,30 +20,34 @@ namespace TikTokAPI.Infraestructure.Services
             _tikTokClient = tikTokClient;
         }
 
-        public async Task<VideoUploadResponse> UploadVideo(Domain.Models.TikTok.Request.SourceInfoRequest request)
+        public async Task<CreatorInformationResponse> GetUserInfo()
         {
-            if (request.Source == Domain.Models.TikTok.SourceInfoEnum.PULL_FROM_URL)
+            return null;
+        }
+
+        public async Task<PostVideoResponse> PostVideoWithUrl(PostVideoRequest request)
+        {
+            // TODO: Custom Exception
+            if (request.SourceInfo.Source is not SourceInfoEnum.PULL_FROM_URL) throw new Exception("");
+
+            // Auth // TODO : SEND to commnd handler
+            CreatorInformationResponse auth = await GetUserInfo();
+            // 
+
+
+            PostVideoResponse response = await _tikTokClient.InitUpload(request);
+
+            if (response.Error.Code == ErrorCodeEnum.OK)
             {
-                VideoUploadResponse response = await _tikTokClient.InitUpload(request);
-                if(response.Error.Code == Domain.Models.TikTok.ErrorCodeEnum.OK)
-                {
-                    // PUT Video
-                    return await PutVideo(request);
-                }
-                return null;
+                // PUT Video
             }
 
-            return await DirectUploadVideo(request);
+            throw new Exception("");
         }
 
-        private async Task<VideoUploadResponse> PutVideo(Domain.Models.TikTok.Request.SourceInfoRequest request)
+        public async Task<PostVideoResponse> PostFileVideo(PostVideoRequest request)
         {
-            return null;
-        }
-
-        private async Task<VideoUploadResponse> DirectUploadVideo(Domain.Models.TikTok.Request.SourceInfoRequest request)
-        {
-            return null;
+            throw new NotImplementedException();
         }
     }
 }

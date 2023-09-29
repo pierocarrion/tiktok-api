@@ -59,6 +59,10 @@
               "target": "Package",
               "version": "[11.7.1, )"
             },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.7.1, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[12.1.1, )"
@@ -124,6 +128,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "JsonNet.ContractResolvers": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"

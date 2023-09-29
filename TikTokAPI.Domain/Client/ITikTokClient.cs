@@ -5,5 +5,5 @@ namespace TikTokAPI.Domain.Client;
 
 public interface ITikTokClient
 {
-    Task<VideoUploadResponse> InitUpload(SourceVideoRequest request);
+    Task<PostVideoResponse> InitUpload(PostVideoRequest request);
 }

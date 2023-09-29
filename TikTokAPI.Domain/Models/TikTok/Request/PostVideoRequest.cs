@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using System.ComponentModel.DataAnnotations;
 using TikTokAPI.Domain.Models.TikTok.Mapping;
 
 namespace TikTokAPI.Domain.Models.TikTok.Request;
@@ -6,10 +7,10 @@ namespace TikTokAPI.Domain.Models.TikTok.Request;
 public sealed class PostVideoRequest
 {
     [JsonProperty(PropertyName = "post_info")]
-    public PostVideoInfoRequest Info { get; set; }
+    public required PostVideoInfoRequest Info { get; set; }
 
     [JsonProperty(PropertyName = "source_info")]
-    public SourceInfoRequest SourceInfo { get; set; }
+    public required SourceInfoRequest SourceInfo { get; set; }
 }
 
 public sealed class PostVideoInfoRequest
@@ -26,9 +27,15 @@ public sealed class PostVideoInfoRequest
         }
     }
 
+    [MaxLength(150)]
     [JsonProperty(PropertyName = "title")]
-    public string Title { get; set; }
+    public required string Title { get; set; }
 
+
+    ///<summary>
+    /// If set to true, other TikTok users will not be allowed to make Duets using this post.
+    /// TikTok server disables Duets for private accounts and those who set the Duet permission to "No one" in their privacy setting.
+    ///</summary>
     [JsonProperty(PropertyName = "disable_duet")]
     public bool DisableDuet { get; set; }
 

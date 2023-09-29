@@ -3,9 +3,9 @@ using System.ComponentModel.DataAnnotations;
 
 namespace TikTokAPI.Domain.Models.TikTok.Response;
 
-public sealed class VideoUploadResponse
+public sealed class PostVideoResponse
 {
-    public required VideoUploadResponseData Data { get; init; }
+    public required PostVideoResponseData Data { get; init; }
     public required ErrorResponse Error { get; init; }
 
     public override string ToString()
@@ -14,7 +14,7 @@ public sealed class VideoUploadResponse
     }
 }
 
-public sealed class VideoUploadResponseData
+public sealed class PostVideoResponseData
 {
     [MaxLength(64)]
     [DataType(DataType.Text)]

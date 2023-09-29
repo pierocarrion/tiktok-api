@@ -24,6 +24,40 @@
           }
         }
       },
+      "FluentValidation.DependencyInjectionExtensions/11.7.1": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "11.7.1",
+          "Microsoft.Extensions.Dependencyinjection.Abstractions": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "JsonNet.ContractResolvers/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "System.Reflection.TypeExtensions": "4.5.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/JsonNet.ContractResolvers.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/JsonNet.ContractResolvers.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "MediatR/12.1.1": {
         "type": "package",
         "dependencies": {
@@ -258,12 +292,22 @@
           }
         }
       },
+      "System.Reflection.TypeExtensions/4.5.1": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
       "TikTokAPI.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Ardalis.Result": "7.1.0",
           "FluentValidation": "11.7.1",
+          "FluentValidation.DependencyInjectionExtensions": "11.7.1",
           "MediatR": "12.1.1",
           "TikTokAPI.Core": "1.0.0",
           "TikTokAPI.Domain": "1.0.0"
@@ -279,6 +323,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "JsonNet.ContractResolvers": "2.0.0",
           "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
@@ -340,6 +385,38 @@
         "lib/netstandard2.0/FluentValidation.xml",
         "lib/netstandard2.1/FluentValidation.dll",
         "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
+    "FluentValidation.DependencyInjectionExtensions/11.7.1": {
+      "sha512": "q3R6mJ0SzWvHJkJ/9d4FAZeuhJp6Cv8WpQItRWyN0v5qxKtwZt6Ol/8HNv8THDOrywTdsNUVKpgDJalVY7hUdw==",
+      "type": "package",
+      "path": "fluentvalidation.dependencyinjectionextensions/11.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.dependencyinjectionextensions.11.7.1.nupkg.sha512",
+        "fluentvalidation.dependencyinjectionextensions.nuspec",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.xml",
+        "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.xml"
+      ]
+    },
+    "JsonNet.ContractResolvers/2.0.0": {
+      "sha512": "OqBmReOlo1VEY0ssIXrKOdyz+sPDmm0cjlb8pVg7RY4Xb6soUJ/kzVmwgMCFMrYnye/omqgefz3VPUWmsI5DNA==",
+      "type": "package",
+      "path": "jsonnet.contractresolvers/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "jsonnet.contractresolvers.2.0.0.nupkg.sha512",
+        "jsonnet.contractresolvers.nuspec",
+        "lib/netstandard1.3/JsonNet.ContractResolvers.dll",
+        "lib/netstandard1.3/JsonNet.ContractResolvers.xml",
+        "lib/netstandard2.0/JsonNet.ContractResolvers.dll",
+        "lib/netstandard2.0/JsonNet.ContractResolvers.xml"
       ]
     },
     "MediatR/12.1.1": {
@@ -717,6 +794,73 @@
         "lib/netstandard2.0/Polly.Extensions.Http.xml",
         "polly.extensions.http.3.0.0.nupkg.sha512",
         "polly.extensions.http.nuspec"
+      ]
+    },
+    "System.Reflection.TypeExtensions/4.5.1": {
+      "sha512": "fO8GMEkgoKioJ7cglZbhcnBgkCWWn9poS3G2jevS+fuwW9xJXMx7/1kr7dkwOJfo0pWqxLFWVcxlOr+WeK5ipA==",
+      "type": "package",
+      "path": "system.reflection.typeextensions/4.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Reflection.TypeExtensions.dll",
+        "lib/net461/System.Reflection.TypeExtensions.dll",
+        "lib/netcore50/System.Reflection.TypeExtensions.dll",
+        "lib/netcoreapp1.0/System.Reflection.TypeExtensions.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.3/System.Reflection.TypeExtensions.dll",
+        "lib/netstandard1.5/System.Reflection.TypeExtensions.dll",
+        "lib/netstandard2.0/System.Reflection.TypeExtensions.dll",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.Reflection.TypeExtensions.dll",
+        "ref/net461/System.Reflection.TypeExtensions.dll",
+        "ref/net461/System.Reflection.TypeExtensions.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.3/System.Reflection.TypeExtensions.dll",
+        "ref/netstandard1.3/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.3/de/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.3/es/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.3/fr/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.3/it/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.3/ja/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.3/ko/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.3/ru/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.3/zh-hans/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.3/zh-hant/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.5/System.Reflection.TypeExtensions.dll",
+        "ref/netstandard1.5/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.5/de/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.5/es/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.5/fr/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.5/it/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.5/ja/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.5/ko/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.5/ru/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.5/zh-hans/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.5/zh-hant/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard2.0/System.Reflection.TypeExtensions.dll",
+        "ref/netstandard2.0/System.Reflection.TypeExtensions.xml",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Reflection.TypeExtensions.dll",
+        "runtimes/aot/lib/uap10.0.16299/_._",
+        "system.reflection.typeextensions.4.5.1.nupkg.sha512",
+        "system.reflection.typeextensions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "TikTokAPI.Application/1.0.0": {

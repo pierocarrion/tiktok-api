@@ -42,3 +42,14 @@ C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI\obj\Debug\net8.0\r
 C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI\obj\Debug\net8.0\TikTokAPI.pdb
 C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI\obj\Debug\net8.0\TikTokAPI.genruntimeconfig.cache
 C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI\obj\Debug\net8.0\ref\TikTokAPI.dll
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI\bin\Debug\net8.0\JsonNet.ContractResolvers.dll
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI\bin\Debug\net8.0\Microsoft.Extensions.Http.Polly.dll
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI\bin\Debug\net8.0\Polly.dll
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI\bin\Debug\net8.0\Polly.Contrib.WaitAndRetry.dll
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI\bin\Debug\net8.0\Polly.Extensions.Http.dll
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI\bin\Debug\net8.0\TikTokAPI.Infraestructure.dll
+C:\Users\piero\source\repos\pierocarrion\TikTok.API\TikTokAPI\bin\Debug\net8.0\TikTokAPI.Infraestructure.pdb

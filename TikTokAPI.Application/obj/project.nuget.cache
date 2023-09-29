@@ -1,15 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "ewofSpTzMJfQfwCkrgQnJc7ViDHDYvATN88b3QYgrPw+1OXqH2ZXVmj2Z/eUOkZWjHdgv5cMta1/e2sKx4LoXw==",
+  "dgSpecHash": "CWQOza2945F2goIzUv3+REulF8FN0LTBnwvN5/eO6rvOecT4RmbAAsfQcU6+oKuj0STcSOCRmCddMKlpTGvxeg==",
   "success": true,
   "projectFilePath": "C:\\Users\\piero\\source\\repos\\pierocarrion\\TikTok.API\\TikTokAPI.Application\\TikTokAPI.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\piero\\.nuget\\packages\\ardalis.result\\7.1.0\\ardalis.result.7.1.0.nupkg.sha512",
     "C:\\Users\\piero\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",
+    "C:\\Users\\piero\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.7.1\\fluentvalidation.dependencyinjectionextensions.11.7.1.nupkg.sha512",
+    "C:\\Users\\piero\\.nuget\\packages\\jsonnet.contractresolvers\\2.0.0\\jsonnet.contractresolvers.2.0.0.nupkg.sha512",
     "C:\\Users\\piero\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
     "C:\\Users\\piero\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\piero\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
-    "C:\\Users\\piero\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\piero\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\piero\\.nuget\\packages\\system.reflection.typeextensions\\4.5.1\\system.reflection.typeextensions.4.5.1.nupkg.sha512"
   ],
   "logs": []
 }

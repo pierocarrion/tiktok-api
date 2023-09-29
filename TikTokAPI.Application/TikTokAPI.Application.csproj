@@ -7,12 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Profiles\" />
     <Folder Include="Video\Queries\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Ardalis.Result" Version="7.1.0" />
     <PackageReference Include="FluentValidation" Version="11.7.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.7.1" />
     <PackageReference Include="MediatR" Version="12.1.1" />
   </ItemGroup>
 

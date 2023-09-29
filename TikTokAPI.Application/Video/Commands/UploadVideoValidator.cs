@@ -6,11 +6,10 @@ public class UploadVideoValidator : AbstractValidator<UploadVideoCommand>
 {
     public UploadVideoValidator()
     {
-        RuleFor(command => command.MaxLength)
+        RuleFor(command => command.VideoUrl)
             .NotEmpty();
 
-        RuleFor(command => command.MaxQuantity)
-            .NotEmpty()
-            .LessThanOrEqualTo(6);
+        RuleFor(command => command.Title)
+            .NotEmpty();
     }
 }

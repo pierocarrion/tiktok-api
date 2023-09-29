@@ -1,13 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "y0nLP/2VViVCK1AF9AFzghkvTTMM7IgpHAiPh2MpHoG2L1ZAn1jVcObOrXj5NB2jJXxk0SEg/4hRqvWmHytvew==",
+  "dgSpecHash": "RbeuEPIa/e6rktmbA+CeA9xH34OxXbYI9APr5OSuL/adblos3uUdFpcfyGg34jto9DYE8fCC2ZQiRO455emQGg==",
   "success": true,
   "projectFilePath": "C:\\Users\\piero\\source\\repos\\pierocarrion\\TikTok.API\\TikTokAPI\\TikTokAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\piero\\.nuget\\packages\\ardalis.result\\7.1.0\\ardalis.result.7.1.0.nupkg.sha512",
     "C:\\Users\\piero\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",
+    "C:\\Users\\piero\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.7.1\\fluentvalidation.dependencyinjectionextensions.11.7.1.nupkg.sha512",
+    "C:\\Users\\piero\\.nuget\\packages\\jsonnet.contractresolvers\\2.0.0\\jsonnet.contractresolvers.2.0.0.nupkg.sha512",
     "C:\\Users\\piero\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
     "C:\\Users\\piero\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\piero\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\7.0.11\\microsoft.aspnetcore.jsonpatch.7.0.11.nupkg.sha512",
+    "C:\\Users\\piero\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\7.0.11\\microsoft.aspnetcore.mvc.newtonsoftjson.7.0.11.nupkg.sha512",
+    "C:\\Users\\piero\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\piero\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\piero\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\piero\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
@@ -19,13 +24,15 @@
     "C:\\Users\\piero\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\piero\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\piero\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\piero\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\piero\\.nuget\\packages\\polly\\7.2.3\\polly.7.2.3.nupkg.sha512",
     "C:\\Users\\piero\\.nuget\\packages\\polly.contrib.waitandretry\\1.1.1\\polly.contrib.waitandretry.1.1.1.nupkg.sha512",
     "C:\\Users\\piero\\.nuget\\packages\\polly.extensions.http\\3.0.0\\polly.extensions.http.3.0.0.nupkg.sha512",
     "C:\\Users\\piero\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\piero\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\piero\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
-    "C:\\Users\\piero\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+    "C:\\Users\\piero\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
+    "C:\\Users\\piero\\.nuget\\packages\\system.reflection.typeextensions\\4.5.1\\system.reflection.typeextensions.4.5.1.nupkg.sha512"
   ],
   "logs": []
 }
